@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Sacramento&family=Sarpanch:wght@400;700&family=Viaoda+Libre&display=swap');
+
+section {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.home1 {
+    display: flex;
+    flex-direction: column;
+    background: url("./logo/laptop.jpg");
+    background-size: cover;
+    filter: grayscale(1);
+    z-index: 99;
+    animation: zoomin 40s infinite;
+}
+
+@keyframes zoomin-mobile {
+    0% {
+        background-size: 160%;
+    }
+
+    100% {
+        background-size: 180%;
+    }
+}
+
+@keyframes zoomin {
+    0% {
+        background-size: 100%;
+    }
+
+    100% {
+        background-size: 120%;
+    }
+}
+
+@media (max-width : 1234px) {
+    .home1 {
+        animation: zoomin-mobile 40s infinite;
+    }
+}
+
+@media (max-width : 870px) {
+    .home1 {
+        animation: none;
+    }
+}
+
+.menu {
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.menu-home-li {
+    font-size: 40px;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.menu-li {
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 25px;
+    align-self: flex-end;
+}
+
+.home-title {
+    position: relative;
+    top: 60vh;
+    left: 150px;
+    font-family: 'Rye', cursive;
+    width: fit-content;
+}
+
+.home-title h1 {
+    font-size: xx-large;
+
+}
+
+.home-title h2 {
+    font-size: x-large;
+}
+
+
+.home-title h2 span {
+    color: white;
+}
+
+.continue {
+    cursor: pointer;
+    position: relative;
+    left: 85vw;
+    top: 70vh;
+    width: fit-content;
+    text-align: -webkit-center;
+}
+
+.continue p {
+    font-size: large;
+    font-family: 'Sarpanch', sans-serif;
+}
+
+.continue p span {
+    color: white;
+}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 0 5px 5px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 5px;
+    height: 5px;
+}
+
+.line-arrow {
+    border: solid black;
+    border-width: 0 1px 0 0;
+    display: block;
+    height: 60px;
+    width: 1px;
+    padding: 5px 0 0 0;
+    margin-top: 12px;
+}
