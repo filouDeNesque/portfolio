@@ -1,0 +1,303 @@
+:root {
+    --primary-color: #f4A261;
+    --secondary-color: #2A9D87;
+    --dark-color: #264653;
+    --hight-color: #f7fff7;
+}
+
+.home4 {
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+}
+
+.home4 h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 63px;
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
+.home4-main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    font-family: 'Sarpanch';
+    line-height: 40px;
+    flex-grow: 1;
+}
+
+.table-card {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 350px;
+    width: 75%;
+    place-content: center;
+    max-width: 500px;
+    position: relative;
+}
+
+.card {
+    width: 200px;
+    height: 140px;
+    border: grey 1px solid;
+    border-radius: 10px;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: start;
+    cursor: pointer;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 2px var(--dark-color);
+}
+
+
+.card:hover {
+    background-color: #6495ed24;
+    border-color: var(--dark-color);
+    filter: drop-shadow(2px 4px 6px var(--dark-color));
+    transform: scale(1.02);
+}
+
+.card-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px var(--hight-color) solid;
+    background: url(https://cdn.pixabay.com/photo/2016/11/21/14/53/adult-1845814_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+}
+
+.card-picture1 {
+    background: url(https://cdn.pixabay.com/photo/2016/11/21/14/53/adult-1845814_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-picture2 {
+    background: url(https://cdn.pixabay.com/photo/2021/01/14/17/53/man-5917529_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-picture3 {
+    background: url(https://cdn.pixabay.com/photo/2019/09/25/06/29/fire-4502710_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-picture4 {
+    background: url(https://cdn.pixabay.com/photo/2020/08/21/08/46/african-5505598_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-picture5 {
+    background: url(https://cdn.pixabay.com/photo/2016/01/20/13/28/woman-1151562_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-picture6 {
+    background: url(https://cdn.pixabay.com/photo/2019/06/02/15/10/portrait-4246627_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head {
+    width: 100%;
+    height: 60px;
+    background: url(https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 12px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.head1 {
+    background: url(https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head2 {
+    background: url(https://cdn.pixabay.com/photo/2020/12/21/19/05/window-5850628_960_720.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head3 {
+    background: url(https://cdn.pixabay.com/photo/2020/05/27/02/27/landscape-5225422_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head4 {
+    background: url(https://cdn.pixabay.com/photo/2021/01/16/14/31/train-5922321_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head5 {
+    background: url(https://cdn.pixabay.com/photo/2021/01/05/01/15/home-5889366_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head6 {
+    background: url(https://cdn.pixabay.com/photo/2021/01/14/04/31/winter-5915750_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card p {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.home4-left {
+    min-width: 360px;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(0deg, var(--dark-color) 50%, transparent 50%);
+}
+
+.contact {
+    text-align: center;
+    color: var(--hight-color);
+    margin: 1em;
+    position: relative;
+}
+
+.contact p {
+    padding-bottom: 1em;
+}
+
+.contact span {
+    font-size: 4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.c1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 89%;
+    border-radius: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldEIsCKvEVDMg8yQ4kj0n-RWZUzagilzCFQ&usqp=CAU);
+    animation: c1anim 2s infinite ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@keyframes c1anim {
+    0% {
+
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldEIsCKvEVDMg8yQ4kj0n-RWZUzagilzCFQ&usqp=CAU);
+    }
+
+    10% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQlBWD3-ifgZmoR59LQ0zTRs6KeLdLVYxHw&usqp=CAU);
+    }
+
+    20% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldEIsCKvEVDMg8yQ4kj0n-RWZUzagilzCFQ&usqp=CAU);
+
+    }
+
+    30% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQlBWD3-ifgZmoR59LQ0zTRs6KeLdLVYxHw&usqp=CAU);
+    }
+
+    40% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldEIsCKvEVDMg8yQ4kj0n-RWZUzagilzCFQ&usqp=CAU);
+
+    }
+
+    50% {
+
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQlBWD3-ifgZmoR59LQ0zTRs6KeLdLVYxHw&usqp=CAU);
+
+    }
+
+    60% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldEIsCKvEVDMg8yQ4kj0n-RWZUzagilzCFQ&usqp=CAU);
+
+    }
+
+    70% {
+
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQlBWD3-ifgZmoR59LQ0zTRs6KeLdLVYxHw&usqp=CAU);
+    }
+
+    80% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldEIsCKvEVDMg8yQ4kj0n-RWZUzagilzCFQ&usqp=CAU);
+
+    }
+
+    90% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQlBWD3-ifgZmoR59LQ0zTRs6KeLdLVYxHw&usqp=CAU);
+    }
+
+    100% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQlBWD3-ifgZmoR59LQ0zTRs6KeLdLVYxHw&usqp=CAU);
+    }
+}
+
+.c2 {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 49%;
+    left: -67%;
+    border-radius: 50%;
+    background-image: url(https://cdn.pixabay.com/photo/2012/04/10/17/38/moon-26619_960_720.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -99;
+    animation: c2anim 10s infinite reverse linear;
+}
+
+@keyframes c2anim {
+    to {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(360deg);
+    }
+}

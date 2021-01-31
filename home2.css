@@ -1,0 +1,132 @@
+.home2 {
+    color: var(--dark-color);
+    background-color: var(--hight-color);
+}
+
+.home2 h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 63px;
+    text-align: center;
+    padding: 40px 0 0.5em 0;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 2em 0 2em;
+    max-width: 850px;
+    align-self: center;
+}
+
+.home2-left,
+.home2-right {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    min-width: 280px;
+    padding-right: 20px;
+}
+
+.home2-left div {
+    height: 400px;
+    width: 100%;
+    background: url(./logo/work.png);
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(2px 4px 6px var(--dark-color));
+    background-repeat: no-repeat;
+
+}
+
+.home2-left p {
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.home2-right {
+    filter: drop-shadow(2px 2px 2px var(--dark-color));
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.techno {
+    display: flex;
+    padding: 10px;
+    place-content: center;
+}
+
+
+.html .logo {
+    background: url(./logo/HTML.png);
+}
+
+.css .logo {
+
+    background: url(./logo/CSS.png);
+}
+
+.js .logo {
+
+    background: url(./logo/JS.png);
+}
+
+.php .logo {
+
+    background: url(./logo/PHP.png);
+}
+
+.techno .logo {
+    height: 55px;
+    width: 68px;
+    background-size: 53%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.progress-value {
+    background-color: var(--secondary-color);
+    width: 20%;
+    height: 100%;
+    border-radius: 5px 0 0;
+}
+
+.html .progress-value {
+    background-color: var(--secondary-color);
+    width: 80%;
+    height: 100%;
+    border-radius: 5px 0 0;
+}
+
+.css .progress-value {
+    background-color: var(--secondary-color);
+    width: 70%;
+    height: 100%;
+    border-radius: 5px 0 0;
+}
+
+.js .progress-value {
+    background-color: var(--secondary-color);
+    width: 65%;
+    height: 100%;
+    border-radius: 5px 0 0;
+}
+
+.php .progress-value {
+    background-color: var(--secondary-color);
+    width: 60%;
+    height: 100%;
+    border-radius: 5px 0 0;
+}
+
+.progress-bar {
+    width: 60%;
+    height: 16%;
+    border: solid 3px var(--secondary-color);
+    border-radius: 10px;
+    margin: 1em;
+}
