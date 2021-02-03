@@ -1,0 +1,118 @@
+.about-main p,
+h2 {
+    font-family: sarpanch;
+    padding: 1em;
+    font-size: 16px;
+    line-height: 40px;
+    max-width: 40ch;
+
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.menu-projets {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    width: 21em;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+    font-size: 20px;
+    font-family: 'Sarpanch', sans-serif;
+}
+
+.menu-projets p {
+    cursor: pointer;
+    align-self: flex-end;
+
+}
+
+.menu-projets :nth-child(3) {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 40px;
+}
+
+.menu-projets :hover {
+    color: var(--hight-color);
+    border-color: var(--secondary-color);
+    animation: menuhover 5s ease-in;
+    filter: drop-shadow(2px 4px 6px var(--dark-color));
+}
+
+.about-main {
+    flex-direction: row;
+}
+
+.left-side,
+.right-side {
+    width: 50%;
+    padding-top: 7em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+    place-items: center;
+}
+
+.right-side {
+    background-color: var(--secondary-color);
+    color: var(--hight-color);
+}
+
+.image-moi {
+    background: url(/logo/moi.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    width: 70%;
+    height: 277px;
+    border-radius: 3px;
+    padding-bottom: 6em;
+    margin-bottom: 2em;
+}
+
+.image-belrio{
+    background: url(/logo/belrio.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    width: 70%;
+    height: 700px;
+    border-radius: 3px;
+    padding-bottom: 6em;
+    margin-bottom: 2em;
+}
+
+
+.image-arti{
+    background: url(/logo/photoarti.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    width: 70%;
+    height: 400px;
+    border-radius: 3px;
+    padding-bottom: 6em;
+    margin-bottom: 2em;
+}
+
+.image-pp{
+    background: url(/logo/pp.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    width: 200px;
+    height: 200px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 50%;
+}
