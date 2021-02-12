@@ -200,7 +200,7 @@
     padding: 0.5em;
     height: 200px;
     width: 156px;
-    background: #d4d4d4c4;
+    background: var(--hight-color);
     margin-left: 1em;
     margin-top: 1em;
     border-radius: 5px;

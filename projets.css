@@ -53,8 +53,7 @@
     height: 23em;
     width: 18em;
     background: #d4d4d4c4;
-    margin-left: 1em;
-    margin-top: 1em;
+    margin: 1em;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     text-align: center;
@@ -75,6 +74,16 @@
 
     to {
         transform: scale(1.05);
+    }
+}
+
+@media (max-width : 870px) {
+
+    .main-projets,
+    .col2,
+    .col3,
+    .col4 {
+        margin-top: 0 !important;
     }
 }
 
@@ -141,6 +150,10 @@ section {
 .card {
     backdrop-filter: brightness(0.5);
     height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Sarpanch';
 }
 
 .projets1 {
@@ -268,4 +281,9 @@ section {
 .myButton:active {
     position: relative;
     top: 1px;
+}
+
+.card h2{
+    padding-bottom: 0.5em;
+    font-size: 1.2rem;
 }
