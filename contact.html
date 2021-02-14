@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clear.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="parallax1">
+    </div>
+    <div class="menu-projets">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="projets.html">Projets</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="contact.html">Contact</a></p>
+    </div>
+    <div class="shape" onclick="visibilityMenu()">
+        <i class="fas fa-ellipsis-v icone-menu"></i>
+        <div id="menumobile" class="container-menu-mobil">
+            <span class="menu-mobil menu-mobil1"><a href="index.html">Home</a></span>
+            <span class="menu-mobil menu-mobil2"><a href="projets.html">Projets</a></span>
+            <span class="menu-mobil menu-mobil3"><a href="about.html">About</a></span>
+            <span class="menu-mobil menu-mobil4"><a href="contact.html">Contact</a></span>
+        </div>
+    </div>
+
+    <section>
+        <div class="form">
+            <label for="name">Nom :</label>
+            <input id="name" type="text">
+            <label for="mail">Email :</label>
+            <input id="mail" type="text">
+            <label for="message">votre message :</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Send</button>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"
+        integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg=="
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dd20401fcd.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="projets.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6em;
+    align-self: center;
+    min-width: 200px;
+}
+.form input, textarea, button{
+    max-width: 100%;
+}
+
+
+.menu-projets {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    width: 21em;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+    font-size: 20px;
+    font-family: 'Sarpanch', sans-serif;
+}
+
+.menu-projets p {
+    cursor: pointer;
+    align-self: flex-end;
+
+}
+
+.menu-projets :nth-child(4) {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 40px;
+}
+
+.menu-projets :hover {
+    color: var(--hight-color);
+    border-color: var(--secondary-color);
+    animation: menuhover 5s ease-in;
+    filter: drop-shadow(2px 4px 6px var(--dark-color));
+}
