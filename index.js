@@ -45,11 +45,10 @@ function visibilityMenu() {
         }, {
             y: 0,
             x: 0,
-            duration: 1.8   
+            duration: 1.8
         });
     } else {
         menuMobile.classList.remove("visible")
         visibility = 0;
     }
 }
-
