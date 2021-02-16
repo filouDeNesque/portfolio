@@ -13,14 +13,14 @@ function setvisibmap() {
 
 
 var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbwrrc9I01PQrx8lF1_-oeBroI-AtXXdSvzqp2LAr8RinYayCQf29stq/exec';
+    url = 'https://script.google.com/macros/s/AKfycbwIn4XmKXTgg6dnPtEXxZ5R4lrUivUFwplsLwWZ6HkdTH_LntpFKvuY/exec';
 
 $('#submit-form').on('click', function(e){
     e.preventDefault();
     var jqxhr = $.ajax({
         url: url,
         method:"GET",
-        datatype:"json",
+        dataType:"json",
         data:$form.serializeObject()
     }).done(function(){
         //do something
