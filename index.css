@@ -361,3 +361,12 @@ a {
         opacity: 1;
     }
 }
+
+.footer{
+    background: var(--dark-color);
+    color: var(--hight-color);
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border-top: 3px solid;
+    border-color: var(--hight-color);
+}
