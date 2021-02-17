@@ -33,14 +33,14 @@
 .menu-contact {
     display: flex;
     justify-content: space-around;
-    padding: 7em 2em 0 2em;
+    padding: 6em 2em 0 2em;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
-    padding: 3em;
+    padding: 2em;
     align-self: center;
     min-width: 200px;
     background: var(--dark-color);
@@ -96,4 +96,9 @@ button {
     max-height: 40vh;
     max-width: 80%;
     align-self: center;
+}
+
+#test-form{
+    display: flex;
+    flex-direction: column;
 }
