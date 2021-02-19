@@ -32,20 +32,27 @@
 
 .menu-contact {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    padding: 6em 2em 0 2em;
+    padding: 6em 0 0 0;
+    width: 50%;
+    max-height: 400px;
+    place-self: center;
+}
+
+section {
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .form {
     display: flex;
-    flex-direction: column;
+    place-content: center;
     margin-top: 2em;
     padding: 2em;
     align-self: center;
     min-width: 200px;
-    background: var(--dark-color);
-    color: var(--hight-color);
-    border-radius: 10px;
+    width: 50%;
 }
 
 .form input,
@@ -66,11 +73,34 @@ button {
 }
 
 @media (max-width : 870px) {
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .menu-contact {
-        padding: 2em 2em 0 2em;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form {
+        margin-left: 2em;
+        margin-right: 2em;
         flex-direction: column;
     }
 
+    #mapiframe{
+        margin-bottom: 1em;
+        margin-right: 0 !important;
+    }
+    #test-form, #mapiframe{
+        width: 100%;
+    }
+
+.menu-contact div:hover a{
+    color: var(--primary-color) !important;
+}
 }
 
 .menu-contact div {
@@ -78,13 +108,17 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    border-radius: 5px;
     cursor: pointer;
+    color: var(--primary-color);
+    margin-bottom: 2em;
 }
 
 .menu-contact div:hover {
-    background-color: var(--dark-color);
-    color: var(--hight-color);
+    color: var(--secondary-color);
+}
+
+.menu-contact div:hover a{
+    color: var(--dark-color);
 }
 
 .visiblemap {
@@ -93,12 +127,59 @@ button {
 
 #mapiframe {
     display: none;
-    max-height: 40vh;
-    max-width: 80%;
+    height: 400px;
+    align-self: center;
+    max-width: 300px;
+    background: var(--dark-color);
+    padding: 1em;
+    border-radius: 5px;
+    margin-right: 1em;
+
+}
+
+#test-form {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    max-width: 300px;
+    background: var(--dark-color);
+    color: var(--hight-color);
+    border-radius: 5px;
+    padding: 1em;
     align-self: center;
 }
 
-#test-form{
-    display: flex;
-    flex-direction: column;
+button {
+    margin-top: 2em;
+    color: var(--primary-color);
+
+}
+
+.addresse{
+    background: linear-gradient(45deg, var(--dark-color) 56%, transparent 50%);
+}
+.phone{
+    background: linear-gradient(45deg, var(--dark-color) 69%, transparent 50%);
+}
+.mail{
+    background: linear-gradient(45deg, var(--dark-color) 82%, transparent 50%);
+}
+.cv{
+    background: linear-gradient(45deg, var(--dark-color) 95%, transparent 50%);
+}
+
+
+
+.addresse:hover{
+        background: linear-gradient(45deg, var(--dark-color) 42%, transparent 10%);
+}
+
+.phone:hover{
+    background: linear-gradient(45deg, var(--dark-color) 41%, transparent 10%);
+}
+.mail:hover{
+        background: linear-gradient(45deg, var(--dark-color) 35%, transparent 10%);
+}
+.cv:hover{
+        background: linear-gradient(45deg, var(--dark-color) 40%, transparent 10%);
 }
