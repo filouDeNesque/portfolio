@@ -213,41 +213,17 @@ a {
 .continue {
     cursor: pointer;
     position: absolute;
-    left: 73%;
+    left: 80%;
     top: 80%;
     width: fit-content;
     text-align: -webkit-center;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px var(--dark-color);
+    line-height: 1.2em;
 }
 
-.continue p {
-    font-size: large;
-    font-family: 'Sarpanch', sans-serif;
-}
-
-.continue p span {
-    color: var(--hight-color);
-}
-
-
-.arrow {
-    border: solid var(--primary     -color);
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 0 5px 5px 0;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    width: 5px;
-    height: 5px;
-}
-
-.line-arrow {
-    border: solid var(--dark-color);
-    border-width: 0 1px 0 0;
-    display: block;
-    height: 60px;
-    width: 1px;
-    padding: 5px 0 0 0;
-    margin-top: 12px;
+.continue i {
+    font-size: 60px;
 }
 
 .shape {
