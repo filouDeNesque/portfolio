@@ -82,6 +82,8 @@ a {
 
 .menu {
     color: var(--primary-color);
+    position: fixed;
+    z-index: 9999;
 }
 
 .menu ul {
