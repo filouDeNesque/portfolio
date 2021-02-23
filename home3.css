@@ -110,10 +110,10 @@
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
-    font-family: 'Rye';
+    font-family: 'Sarpanch';
     font-size: 2rem;
     align-items: center;
-
+    text-align: end;
 }
 
 .techno-card-flip {

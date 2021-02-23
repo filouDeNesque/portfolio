@@ -92,7 +92,7 @@ h2 {
 
 
 .image-arti {
-    background: url(/logo/photoarti.jpeg);
+    background: url(/logo/photoarti.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ h2 {
 }
 
 .image-pp {
-    background: url(/logo/pp.jpeg);
+    background: url(/logo/pp.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
